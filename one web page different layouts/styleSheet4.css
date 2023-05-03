@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgba(59, 201, 97, 0.753);
+}
+
+
+header {
+    font-size: 25px;
+    padding: 0px 20px;
+    line-height: 45px;
+}
+
+header p strong {
+    font-size: 40px;
+    color: rgba(59, 201, 97, 0.753);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar {
+    width: 25vw;
+    border: 1px solid wheat;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(238, 233, 227);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(59, 201, 97, 0.753);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+nav ul li a:hover {
+    color: crimson;
+}
+
+.div1{
+    font-size: 20px;
+    padding: 25px;
+    line-height: 30px;
+}
+
+main div a{
+    color: rgb(238, 233, 227);
+}
+main div a:hover{
+    text-decoration: none;
+    color:dodgerblue;
+}
+
+.aside{
+    color: rgb(238, 233, 227);
+    border: 1px solid wheat;
+    margin: 0px 30px;
+    border-radius: 10px;
+    padding: 10px;
+}

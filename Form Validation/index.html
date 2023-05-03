@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/script.js">javascript</script>
+</head>
+<body>
+    <form action="/validated.html" id="form" class="ml-10 mt-10 grid text-lg mb-10">
+        <label for="name"> Username <br>
+            <input type="text" name="name" id="name" class="border border-black px-1">
+        </label> <br>
+        <label for="pwd"> Password <br>
+            <input type="password" name="pwd" id="pwd" class="border border-black px-1">
+        </label> <br>
+        <label for="confirm"> Password Confirmation<br>
+            <input type="password" name="confirm" id="confirm" class="border px-1 border-black">
+        </label> <br>
+        <label for="terms">
+            <input type="checkbox" name="terms" id="terms"> Agree to terms?
+        </label> <br>
+        <button id="btn" type="submit" class="w-[130px] py-1 border-black border">Create Account</button>
+    </form>
+    <div id="error-notice" class="bg-red-500 hidden space-y-2 px-6 py-3 text-emerald-800 font-bold text-center"></div>
+</body>
+</html>

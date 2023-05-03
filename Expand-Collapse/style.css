@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+}
+
+.question{
+    position: relative;
+    border: 1px solid violet;
+    padding: 10px;
+}
+
+.button{
+    position: absolute;
+    right: 0%;
+    margin: 6px;
+    top: 0%;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.open{
+    z-index: 100;
+}
+
+.answer{
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid violet;
+    height: 0;
+} */

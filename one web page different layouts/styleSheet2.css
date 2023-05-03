@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: tomato;
+}
+
+header {
+    font-size: 30px;
+    color: wheat;
+    padding: 10px 20px;
+    line-height: 60px;
+}
+
+header p strong {
+    font-size: 50px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: wheat;
+    border: 2px solid gray;
+    margin-left: 16px;
+    border-radius: 10px;
+    padding-right: 64px;
+    font-size: 27px;
+    padding-left: 10px;
+    line-height: 74px;
+    background-color: crimson;
+}
+
+nav ul li a:hover {
+    background-color: cadetblue;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin: 0px 10px;
+}
+
+
+main {
+    background-color: bisque;
+    margin: 0px 10px;
+}
+
+.div1 {
+    padding: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+main div a {
+    color: rgb(13, 59, 242);
+    text-decoration: none;
+}
+
+main div a:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}
+
+.sideBar {
+    background-color: rgba(226, 91, 118, 0.726);
+    color: rgb(233, 52, 36);
+    font-size: 20px;
+    padding: 15px 145px 15px 15px;
+    line-height: 30px;
+}
+
+.aside{
+    margin: 10px 30px;
+    color: wheat;
+}
+
+h2, h3{
+    color: rgb(233, 52, 36);
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(222, 215, 205);
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(46, 218, 46);
+    padding: 10px 20px;
+    font-size: 30px;
+    color: wheat;
+    line-height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+}
+header strong{
+    font-size: 40px;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    border: 2px solid gray;
+    margin-left: 16px;
+    border-radius: 10px;
+    padding-right: 64px;
+    font-size: 27px;
+    padding-left: 10px;
+    line-height: 55px;
+    background-color: cadetblue;
+}
+
+nav ul li a:hover{
+    background-color: crimson;
+}
+
+
+nav ul {
+    float: left;
+}
+
+.div1 {
+    width: 69vw;
+    background: rgb(222, 215, 205);
+    margin: 6px 23px;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 35px;
+    border-radius: 10px;
+}
+
+main div a{
+    color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+main div a:hover{
+    text-decoration: none;
+    color: chocolate;
+}
+
+.sideBar {
+    width: 15vw;
+    background-color: aqua;
+    line-height: 27px;
+    font-size: 20px;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: 6px;
+    height: 495px;
+}
+
+
+.aside{
+    background-color:wheat;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px 8px 0px 8px;
+    line-height: 25px;
+}

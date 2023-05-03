@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    width: 105vw;
+    z-index: -5;
+    filter: blur(30px);
+}
+
+.loading-number{
+    font-size: 50px;
+    color: red;
+}

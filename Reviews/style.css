@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+img{
+    border-radius: 90px;
+    width: 150px;
+    height: 150px;
+}
+
+.name{
+    margin: 20px 0;
+}
+
+.card{
+    display: none;
+}
+
+h1{
+    margin-bottom: 70px;
+    font-size: 60px;
+}
+
+.box-container{
+    background-color: coral;
+    width: 535px;
+    text-align: center;
+    border: 4px solid green;
+    padding: 20px;
+}
+
+.leftArrow, .rightArrow{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    padding: 4px 8px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.random-button{
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 8px;
+}

@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to right, rgb(255, 27, 228), rgb(32, 110, 244));
+    width: 100vw;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    z-index: 100;
+    align-items: center;
+    padding: 7px 0px 7px 30px;
+    position: fixed;
+}
+
+.footerContent {
+    line-height: 23px;
+    color: aliceblue;
+}
+
+.footerButton {
+    width: 130px;
+    border-radius: 50px;
+    height: 43px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    border: none;
+}
+
+.footerButton:hover {
+    cursor: pointer;
+    width: 133px;
+    height: 45px;
+}
+
+.footerContent:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+
+
+.left-container {
+    background-color: black;
+    height: 100vh;
+    float: left;
+    max-width: 220px;
+    position: sticky;
+    top: 0;
+    padding-top: 15px;
+}
+
+.spotify-logo {
+    width: 53%;
+    margin: 15px 0 0 20px;
+}
+.spotify-logo:hover{
+    cursor: pointer;
+}
+
+
+
+nav {
+    margin-top: 40px;
+    margin-left: 30px;
+    line-height: 37px;
+    font-size: 15px;
+}
+
+li a {
+    color: rgb(146, 151, 151);
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+
+    color: aliceblue;
+}
+
+a:active {
+    color: aliceblue;
+}
+
+.list-divider {
+    margin-top: 20px;
+}
+
+i {
+    margin-right: 25px;
+    transform: scale(1.7);
+}
+
+.left-extra {
+    position: absolute;
+    bottom: 120px;
+    font-size: 12px;
+    margin-left: 30px;
+    line-height: 23px;
+}
+
+
+.right-container {
+    width: 100vw;
+    background-color: rgb(35, 33, 33);
+}
+
+header {
+    /* display: flex; */
+    background-color: rgb(19, 19, 19);
+    height: 62px;
+    position: relative;
+    top: 0;
+}
+
+.header-content {
+    font-size: 18px;
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
+.headerButton {
+    height: 40px;
+    width: 90px;
+    border: none;
+    float: right;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 40px;
+    position: absolute;
+    right: 0;
+}
+
+.header-content-text {
+    text-decoration: none;
+    color: aliceblue;
+    position: relative;
+    right: 145px;
+    top: 9px;
+}
+
+.header-content-text:hover{
+    /* font-size: 19px; */
+    font-weight: 600;
+}
+
+.headerButton:hover {
+    height: 41px;
+    width: 91px;
+    cursor: pointer;
+}
+
+.angle-left {
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: black;
+    width: 17px;
+    padding-left: 5px;
+}
+
+.angle-right {
+    border-radius: 50%;
+    background-color: black;
+    width: 17px;
+    padding-left: 6px;
+    color: aliceblue;
+}
+
+.arrows{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.arrows:hover{
+    cursor: not-allowed;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <!-- <script defer src="/again.js">javascript</script> -->
+</head>
+
+<body>
+    <div id="drop-down-button">
+        <button id="current-date-button"></button>
+    </div>
+
+    <div id="drop-down-body">
+        <div id="main-container" class="hidden">
+            <div id="arrow-month-header">
+                <button id="btn-before-month">&larr;</button>
+                <span id="calender-header-month-year"></span>
+                <button id="btn-after-month">&rarr;</button>
+            </div>
+            <div id="days">
+                <div class="days">Sun</div>
+                <div class="days">Mon</div>
+                <div class="days">Tue</div>
+                <div class="days">Wed</div>
+                <div class="days">Thu</div>
+                <div class="days">Fri</div>
+                <div class="days">Sat</div>
+            </div>
+            <div id="grid-dates">
+                <button class="date other-month-date">25</button>
+                <button class="date">5</button>
+                <button class="date">6</button>
+                <button class="date selectedDate">7</button>
+                <button class="date">8</button>
+                <button class="date">9</button>
+                <button class="date other-month-date">5</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

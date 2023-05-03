@@ -1,0 +1,64 @@
+#wrong{
+    background-color: red;
+    padding: 3px;
+    display: none;
+}
+
+#game-over, #out-of-guesses{
+    display: none;
+    background-color: red;
+    padding: 3px;
+    margin-top: 20px;
+}
+
+h1{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#congratulations{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
+    background-color: green;
+    padding: 3px;
+}
+
+#new-game, #previous-guesses, #low, #high, #out-of-guesses{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#new-game{
+    margin: auto;
+}
+
+.transition{
+    transition: all 2s;
+}
+
+
+body{
+    background-color: rgb(37, 33, 33);
+    color: rgb(5, 93, 255);
+    font-size: 20px;
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.everything{
+    width: 80vw;
+    line-height: 30px;
+    text-align: center;
+    height: 500px;
+}

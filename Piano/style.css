@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.piano{
+    background-color: red;
+    width: 720px;
+    height: 500px;
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+}
+
+.white{
+    border-radius: 10px;
+    height: 100%;
+    border-collapse: collapse;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 120px;
+    background-color: wheat;
+}
+
+.black{
+    border-radius: 10px;
+    border-collapse: collapse;
+    border-left: 1px solid wheat;
+    height: 60%;
+    position: absolute;
+    border-right: 1px solid wheat;
+    width: 104px;
+    background-color: black;
+}
+
+.activeButton{
+    background-color: cadetblue;
+}

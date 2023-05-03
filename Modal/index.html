@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <script defer src="/script.js">javascript</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="open-modal" class="bg-slate-500 w-60 h-40 space-y-5 m-10 rounded-md text-red-600">
+        <p class="text-center text-2xl font-mono pt-4">Click to open Modal</p>
+        <button id="open-btn" type="button" class="bg-white rounded-md p-2 ml-16">Open Modal</button>
+    </div>
+    
+    <div id="overlay" class="absolute bg-black/[.75] top-0 bottom-0 right-0 left-0 hidden">
+        <div id="close-modal-container" class="flex justify-center h-[100%] items-center">
+            <div id="close-modal" class="bg-slate-500 w-60 h-40 space-y-5 m-10 hidden rounded-md text-red-600">
+                <p class="text-center text-2xl font-mono pt-4">Click to close Modal</p>
+                <button id="close-btn" type="button" class="bg-white rounded-md p-2 ml-16">Close Modal</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

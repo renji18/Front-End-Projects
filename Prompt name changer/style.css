@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    border: 2px solid crimson;
+    padding: 15px;
+    background-color: chartreuse;
+    border-radius: 20px;
+}
